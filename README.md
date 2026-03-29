@@ -35,3 +35,5 @@ Run using bash:
 	  -n  int      Threads               (default 1)
 	  -o  string   Screenshot dir        (default /home/kelevran/screenshot)
 
+<img width="1022" height="725" alt="image" src="https://github.com/user-attachments/assets/7785112d-f26f-4d78-bf5b-50b91f74a11d" />
+
