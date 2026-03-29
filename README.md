@@ -4,7 +4,7 @@ This is a program written in GO that works in any Debian systems, that uses a li
 # Installing
 Download GO from the official website at https://go.dev/dl/ and install the GO language. 
 
-Once packages are downloaded save them into a new directory, then navigate to that folder and start building the program:
+Download build.sh, go.mod and main.go them into a new directory, then navigate to that folder and start building the program:
 
 bash:
 
