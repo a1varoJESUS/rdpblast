@@ -10,8 +10,11 @@ bash:
 
 	chmod +x build.sh
 	./build.sh
+    
+OR to install all dependencies: 
+    
+    sudo apt-get install -y golang-go rdesktop xvfb imagemagick 
 
-manually:
-
- sudo apt-get install -y golang-go rdesktop xvfb imagemagick
-go build -ldflags="-s -w" -o rdpblast
+then build it with go:
+    
+    go build -ldflags="-s -w" -o rdpblast
