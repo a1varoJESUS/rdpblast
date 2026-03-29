@@ -22,16 +22,16 @@ then build it with go:
 # Usage
 Run using bash:
 
-./rdpblast 
+	./rdpblast 
 
-rdpblast — RDP credential tester (rdesktop)
+	rdpblast — RDP credential tester (rdesktop)
 
-Usage: rdpblast -t <host> -f <wordlist> [options]
+	Usage: rdpblast -t <host> -f <wordlist> [options]
 
-  -t  string   Target IP / hostname          (required)
-  -f  string   Credentials file user:pass    (required)
-  -p  int      RDP port              (default 3389)
-  -d  string   Windows domain        (optional)
-  -n  int      Threads               (default 1)
-  -o  string   Screenshot dir        (default /home/kelevran/screenshot)
+	  -t  string   Target IP / hostname          (required)
+	  -f  string   Credentials file user:pass    (required)
+	  -p  int      RDP port              (default 3389)
+	  -d  string   Windows domain        (optional)
+	  -n  int      Threads               (default 1)
+	  -o  string   Screenshot dir        (default /home/kelevran/screenshot)
 
