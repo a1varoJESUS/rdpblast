@@ -4,7 +4,7 @@ This is a program written in GO that works in any Debian systems, that uses a li
 # Installing
 Download GO from the official website at https://go.dev/dl/ and install the GO language. 
 
-Once packages are downloaded, start building the program:
+Once packages are downloaded save them into a new directory, then navigate to that folder and start building the program:
 
 bash:
 
@@ -18,3 +18,20 @@ OR to install all dependencies:
 then build it with go:
     
     go build -ldflags="-s -w" -o rdpblast
+
+# Usage
+Run using bash:
+
+./rdpblast 
+
+rdpblast — RDP credential tester (rdesktop)
+
+Usage: rdpblast -t <host> -f <wordlist> [options]
+
+  -t  string   Target IP / hostname          (required)
+  -f  string   Credentials file user:pass    (required)
+  -p  int      RDP port              (default 3389)
+  -d  string   Windows domain        (optional)
+  -n  int      Threads               (default 1)
+  -o  string   Screenshot dir        (default /home/kelevran/screenshot)
+
